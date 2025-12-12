@@ -65,7 +65,8 @@ export default function Home() {
 
 "
           />
-          <Card id={busca} valor={busca} />
+          {busca && <Card id={busca} valor={busca} />}
+
           <p className="text-[10px] opacity-30 mt-3">
             NOTE: DATABASE BUILT BY RICK. RESULTS MAY BE WRONG.
           </p>
